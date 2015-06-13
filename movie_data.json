@@ -1,0 +1,57 @@
+[
+	{
+		"title": "Serenity",
+		"storyline": "A crew of traders get drawn into an empire's hidden experiment",
+		"poster_image_url": "https://upload.wikimedia.org/wikipedia/en/9/9e/Serenity_One_Sheet.jpg",
+		"trailer_youtube_url": "https://www.youtube.com/watch?v=JY3u7bB7dZk",
+		"release_date": {
+			"US": "2005-09-30"
+		}
+	},
+	{
+		"title": "The Matrix",
+		"storyline": "A software developer discovers the is not what it seems",
+		"poster_image_url": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
+		"trailer_youtube_url": "https://www.youtube.com/watch?v=m8e-FF8MsqU",
+		"release_date": {
+			"US": "1999-03-31",
+			"AU": "1999-04-08"
+		}
+	},
+	{
+		"title": "Fearless",
+		"storyline": "A Biopic of Martial Arts Master Huo YuanJia",
+		"poster_image_url": "http://upload.wikimedia.org/wikipedia/en/4/4a/Fearless_film.jpg",
+		"trailer_youtube_url": "https://www.youtube.com/watch?v=d1SSn64xeTg",
+		"release_date": {
+			"US": "2006-01-26"
+		}
+	},
+	{
+		"title": "Schindler's List",
+		"storyline": "A story of a man who saves the lives of many in the midst of a regional power stuggle",
+		"poster_image_url": "http://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
+		"trailer_youtube_url": "www.youtube.com/watch?v=dwfIf1WMhgc",
+		"release_date": {
+			"US": "1993-12-15"
+		}
+	},
+	{
+		"title": "City Hunter",
+		"storyline": "An ace gunslinger is commissioned to protect a business mogul's rebellious daughter",
+		"poster_image_url": "http://upload.wikimedia.org/wikipedia/en/5/55/City_Hunter_%28film%29.jpg",
+		"trailer_youtube_url": "https://www.youtube.com/watch?v=3zNSJA7_m80",
+		"release_date": {
+			"US": "1993-01-13"
+		}
+	},
+	{
+		"title": "Kung Fu Hustle",
+		"storyline": "A wannabe gangster learns of his true powers and purpose",
+		"poster_image_url": "http://upload.wikimedia.org/wikipedia/en/0/00/KungFuHustleHKposter.jpg",
+		"trailer_youtube_url": "www.youtube.com/watch?v=kyWhVUCXY1A",
+		"release_date": {
+			"US": "2004-12-23"
+		}
+	}
+]
