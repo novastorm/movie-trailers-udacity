@@ -2,16 +2,9 @@ import os
 import re
 import webbrowser
 
+'''trailers info'''
 
-# A single movie entry html template
-# movie_tile_content = '''
-# <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
-#     <img src="{poster_image_url}" width="220" height="342">
-#     <h2>{movie_title}</h2>
-#     <p>{us_release_date}</p>
-# </div>
-# '''
-
+#table of templates and associated file locations
 table_of_files = {
   'main_page_head': 'scripts/head.tpl',
   'main_page_content': 'scripts/index.tpl',
@@ -19,7 +12,7 @@ table_of_files = {
 }
 
 def create_movie_tiles_content(movies):
-    # The HTML content for this section of the page
+    '''The HTML content for this section of the page'''
     with open(table_of_files['movie_tile_content']) as fh:
       movie_tile_content = fh.read()
     fh.close()
@@ -40,9 +33,9 @@ def create_movie_tiles_content(movies):
         )
     return content
 
-def open_movies_page(movies):
+def open_movies_page(movies, output):
   # Create or overwrite the output file
-  output_file = open('trailers.html', 'w')
+  output_file = open(output, 'w')
 
   with open(table_of_files['main_page_head']) as fh:
     main_page_head = fh.read()
