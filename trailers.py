@@ -33,9 +33,9 @@ def create_movie_tiles_content(movies):
         )
     return content
 
-def open_movies_page(movies):
+def open_movies_page(movies, output):
   # Create or overwrite the output file
-  output_file = open('trailers.html', 'w')
+  output_file = open(output, 'w')
 
   with open(table_of_files['main_page_head']) as fh:
     main_page_head = fh.read()
