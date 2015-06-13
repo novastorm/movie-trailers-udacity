@@ -8,11 +8,11 @@ Additional options
 
 -d, --data FILE
 
-    default filename is *movie_data.json*
+default filename is *movie_data.json*
 
-	data format is a JSON array.
-	
-	An example record
+data format is a JSON array.
+
+An example record
 
     [
         {
