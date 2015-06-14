@@ -2,12 +2,15 @@ import json
 import os
 import webbrowser
 
+
 class Movie(object):
 	"""A movie related information store"""
 
 	VALID_RATINGS = ["G", "PG", "PG-13", "R", "NC-17"]
 
-	def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube, us_release_date):
+	def __init__(
+			self, movie_title, movie_storyline, poster_image,
+			trailer_youtube, us_release_date):
 		self._title = movie_title
 		self._storyline = movie_storyline
 		self._poster_image_url = poster_image
